@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="../../css/formulario/EstilosFormularioValorant.css">
+</head>
+
+<body>
+    <header>
+        <!--No añado un header por la estructura de la pagina y para que quede mas limpio, pero dejo la etiqueta para utilizar html5 -->
+    </header>
+
+    <main>
+        <article>
+            <form>
+                <h1>Formulario</h1>
+
+                <!--Nombre-->
+                <div>
+                    <input type="text" name="nombre" pattern="[A-Za-z]+" placeholder="Nombre" required>
+                </div>
+
+                <!--Apellidos-->
+                <div>
+                    <input type="text" name="apellidos" pattern="[A-Za-z]+" placeholder="Apellidos" required>
+                </div>
+
+                <!--Telefono-->
+                <div>
+                    <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="Telefono" required>
+                </div>
+
+                <!--Correo Electronico-->
+                <div>
+                    <input type="email" name="correo" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="Correo electronico" required>
+                </div>
+
+                <!--Fecha de nacimiento-->
+                <div>
+                    <label for="fecha">Fecha de nacimineto</label></br>
+                    <input type="date" name="fecha" required>
+                </div>
+
+                <!--Direccion-->
+                <div>
+                    <input type="text" name="direccion" placeholder="Direccion" required>
+                </div>
+
+                <!--Codigo Postal-->
+                <div>
+                    <input type="text" name="codigoPostal" pattern="\d{5}" maxlength="5" placeholder="Codigo Postal" required>
+                </div>
+
+                <!--Formato de pago-->
+                <div>
+                    <label for="pago">Formato de pago:</label>
+                    <br>
+
+                    <input type="radio" name="pago" value="Visa" required>
+                    <label for="Visa">Visa</label>
+                    <br>
+
+                    <input type="radio" name="pago" value="Mastercard" required>
+                    <label for="Mastercard">Mastercard</label>
+                    <br>
+
+                    <input type="radio" name="pago" value="Paypal" required>
+                    <label for="Paypal">Paypal</label>
+                </div>
+
+                <!--Aceptacion de cookies-->
+                <div>
+                    <label for="Paypal">Aceptacion uso de Cookies y </br> politica de privacidad</label>
+                    <input type="checkbox" id="cookies" name="cookies">
+                </div>
+
+                <!--Registrar-->
+                <div>
+                    <button type="submit" id="registrar">Registrar</button>
+                </div>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <!--No añado el footer ya que no lo veo necesario el la pagina del formulario pero pongo la etiqueta-->
+    </footer>
+</body>
+</html>
