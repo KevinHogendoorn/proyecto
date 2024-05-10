@@ -1,0 +1,75 @@
+body{
+    background-image: url(../../img/frase/Fondo.jpg);
+    background-size: 100%;
+}
+
+h1{
+    background-color: rgb(0, 49, 114);
+    color: rgb(228, 228, 228);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid blanchedalmond;
+}
+
+main{
+    position: absolute;
+    width: 70%;
+    height: 8.6%;
+    margin-top: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.frase {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 112, 94);
+    color: aliceblue;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; 
+    margin: auto;
+  }
+
+
+  .frase::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 1px;
+    width: 100%;
+    height:100%;
+    border-top: 5px dotted rgb(81, 255, 0);;
+    border-bottom: 5px double rgb(255, 0, 0);
+    border-width: 5px;
+  }
+
+
+  .frase::after {
+      content: "";
+    position: absolute;
+    bottom: 0px;
+    right: -4px;
+    width: 100%;
+    height: 100%;
+    border-left: 5px dashed rgb(245, 102, 0); 
+    border-right: 5px dashed rgb(114, 82, 17);
+    border-width: 4px;
+ }
+
+ footer{
+    background-color: rgb(156, 138, 173);
+    color: azure;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+    margin-right:-10px;
+    margin-left:-10px;
+}
