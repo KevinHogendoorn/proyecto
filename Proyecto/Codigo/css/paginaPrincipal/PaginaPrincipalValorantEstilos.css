@@ -216,33 +216,34 @@ body {
 }
 
 
-.cookies {
+.avisoCookies {
     position: fixed;
+    color: white;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f0f0f0;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.85);
     padding: 20px;
     text-align: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#formularioCookies {
+#cookiesForm {
     display: inline-block;
 }
 
 .contentCheckbox{
     display: flex;
     flex-direction: row;
-    border: solid red 1px;
 }
 
-.cookies label {
+.avisoCookies label {
     display: block;
     margin: 10px;
 }
 
-.cookies button {
+.avisoCookies button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -253,6 +254,6 @@ body {
     outline: none;
 }
 
-.cookies button:hover {
+.avisoCookies button:hover {
     background-color: #0056b3;
 }
