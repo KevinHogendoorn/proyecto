@@ -216,7 +216,7 @@ body {
 }
 
 
-.avisoCookies {
+.aviso-cookies {
     position: fixed;
     color: white;
     bottom: 0;
@@ -238,12 +238,12 @@ body {
     flex-direction: row;
 }
 
-.avisoCookies label {
+.aviso-cookies label {
     display: block;
     margin: 10px;
 }
 
-.avisoCookies button {
+.aviso-cookies button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -254,6 +254,6 @@ body {
     outline: none;
 }
 
-.avisoCookies button:hover {
+.aviso-cookies button:hover {
     background-color: #0056b3;
 }
